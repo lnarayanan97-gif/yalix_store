@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YALIX | Export Quality Industrial Products</title>
+<meta name="description" content="YALIX - premium industrial products and export solutions from India to global markets.">
+<style>
+:root{--navy:#062b5c;--blue:#0b4a88;--green:#3b8f45;--ink:#10202e;--muted:#687681;--bg:#f5f8f6;--line:#dfe8e2;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:#fff}
+a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid #e7ece9}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.logo{height:55px;width:auto;object-fit:contain}
+.links{display:flex;gap:30px;font-size:14px;font-weight:700;color:#263b4e}.links a:hover{color:var(--green)}
+.btn{padding:13px 21px;border-radius:8px;font-weight:800;display:inline-block}.primary{background:var(--navy);color:#fff}.outline{border:1px solid #cfdad4;color:var(--navy);background:#fff}
+.hero{background:linear-gradient(120deg,#f8faf9 0%,#fff 56%,#edf5ef 100%);padding:82px 0 75px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:900;color:var(--green);margin-bottom:15px}
+h1{font-size:clamp(45px,6vw,76px);line-height:.98;letter-spacing:-3px;color:var(--navy);margin:0}h1 em{font-style:normal;color:var(--green)}
+.hero p{font-size:18px;line-height:1.7;color:var(--muted);max-width:600px;margin:25px 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+.trust{display:flex;gap:26px;flex-wrap:wrap;margin-top:28px;font-size:13px;font-weight:800}.trust span:before{content:"✓";color:var(--green);margin-right:7px}
+.visual{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center}.visual-card{width:100%;max-width:590px;border-radius:28px;background:#fff;border:1px solid var(--line);box-shadow:0 30px 80px rgba(6,43,92,.13);padding:15px;transform:rotateY(-7deg) rotateX(2deg)}.visual-card img{width:100%;display:block;border-radius:20px}
+.badge{position:absolute;background:#fff;border:1px solid var(--line);box-shadow:0 16px 35px rgba(6,43,92,.12);border-radius:13px;padding:13px 16px;font-weight:900;color:var(--navy)}.b1{left:-18px;top:75px}.b2{right:-10px;bottom:75px}.badge small{display:block;color:var(--green);font-size:10px;letter-spacing:1px;margin-top:2px}
+
+section{padding:88px 0}.head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:38px}.head h2{margin:0;color:var(--navy);font-size:43px;letter-spacing:-1.5px;line-height:1.05}.head p{max-width:470px;color:var(--muted)}
+.products{background:var(--bg)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;transition:.25s;box-shadow:0 8px 24px rgba(6,43,92,.04)}.card:hover{transform:translateY(-7px);box-shadow:0 25px 55px rgba(6,43,92,.12)}.pic{background:#edf4ef}.pic img{width:100%;display:block}.body{padding:23px}.body h3{margin:0 0 7px;color:var(--navy);font-size:24px}.body p{margin:0 0 17px;color:var(--muted);font-size:14px;line-height:1.65}.chips{display:flex;gap:7px;flex-wrap:wrap}.chip{background:#eef6ef;color:var(--green);padding:6px 9px;border-radius:100px;font-size:11px;font-weight:800}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:28px}.panel{border-radius:25px;padding:38px;background:#fff;border:1px solid var(--line)}.panel.dark{background:linear-gradient(135deg,#062b5c,#0c4d88);color:#fff;border:0}.panel h3{font-size:29px;margin:0 0 12px}.panel p{color:var(--muted);line-height:1.7}.dark p{color:#d9e6f1}.route{display:flex;align-items:center;gap:13px;font-weight:900;margin:30px 0}.route-line{height:2px;flex:1;background:linear-gradient(90deg,#fff,#55a55f);position:relative}.route-line:after{content:"➜";position:absolute;right:-3px;top:-13px;color:#7dc684;font-size:23px}.route i{font-style:normal;font-size:28px}
+.points{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:25px}.point{padding:15px;border-radius:13px;background:rgba(255,255,255,.09);font-weight:700}.point b{color:#9ed5a4}
+.about{background:#f8faf9}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}.about-art{border-radius:28px;background:linear-gradient(145deg,#0b4a88,#062b5c);min-height:370px;padding:40px;color:#fff;position:relative;overflow:hidden}.about-art:after{content:"Y";position:absolute;right:-15px;bottom:-100px;font-size:390px;font-weight:900;color:rgba(255,255,255,.05)}.about-art h3{font-size:38px;line-height:1.05;max-width:390px;position:relative;z-index:2}.about-art p{max-width:410px;color:#d8e6f3;position:relative;z-index:2}.about-copy h2{font-size:43px;line-height:1.05;color:var(--navy);margin:0 0 18px}.about-copy p{color:var(--muted);line-height:1.75}.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0}.checks div{font-weight:800}.checks div:before{content:"✓";display:inline-grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#e9f4eb;color:var(--green);margin-right:9px}
+
+.cta{padding:50px 0}.cta-box{border-radius:27px;background:linear-gradient(105deg,#062b5c,#0b4b83 60%,#3b8f45);color:#fff;padding:42px;display:flex;justify-content:space-between;align-items:center;gap:25px}.cta-box h2{font-size:39px;margin:0}.cta-box p{color:#d9e7f0}.cta-box .btn{background:#fff;color:var(--navy)}
+footer{background:#061a2d;color:#b6c6d3;padding:48px 0 22px}.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:30px}.flogo{height:50px;background:#fff;border-radius:7px;padding:4px;margin-bottom:14px}.foot h4{color:#fff;margin:0 0 12px}.foot a,.foot p{font-size:14px;color:#a9bac8}.fnav{display:grid;gap:7px}.copy{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;font-size:12px;display:flex;justify-content:space-between}
+
+@media(max-width:900px){.links{display:none}.hero-grid,.about-grid,.split{grid-template-columns:1fr}.visual{min-height:430px}.grid{grid-template-columns:1fr 1fr}.head{display:block}.head p{margin-top:12px}.cta-box{display:block}.cta-box .btn{margin-top:15px}}
+@media(max-width:600px){section{padding:65px 0}.hero{padding:60px 0}.grid{grid-template-columns:1fr}.hero-grid{gap:25px}.visual{min-height:350px}.b1{left:0}.b2{right:0}.head h2,.about-copy h2{font-size:34px}.checks{grid-template-columns:1fr}.foot{grid-template-columns:1fr}.copy{display:block}.copy span{display:block;margin-top:7px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a href="#home"><img src="yalix-logo.jpg" class="logo" alt="YALIX logo"></a>
+<nav class="links"><a href="#products">Products</a><a href="#about">About</a><a href="#exports">Exports</a><a href="#contact">Contact</a></nav>
+<a class="btn primary" href="mailto:sales@yalixvalor.com?subject=YALIX%20Business%20Enquiry">Get a Quote</a>
+</div></header>
+
+<main id="home">
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow">YALIX • Export Business</div><h1>Quality products.<br><em>Global supply.</em></h1>
+<p>YALIX connects quality-focused industrial products from India with customers and partners across international markets.</p>
+<div class="actions"><a class="btn primary" href="#products">View Products</a><a class="btn outline" href="#exports">Our Export Markets</a></div>
+<div class="trust"><span>Premium Quality</span><span>Bulk Supply</span><span>Global Export Ready</span></div></div>
+<div class="visual"><div class="visual-card"><img src="glass-powder.svg" alt="YALIX Glass Powder product"></div><div class="badge b1">EXPORT READY<small>GLOBAL MARKETS</small></div><div class="badge b2">B2B SUPPLY<small>CONSISTENT QUALITY</small></div></div>
+</div></section>
+
+<section id="products" class="products"><div class="wrap">
+<div class="head"><div><div class="eyebrow">Featured Products</div><h2>Our products, clearly presented.</h2></div><p>Premium product categories with a business-first approach to quality, consistency and supply.</p></div>
+<div class="grid">
+<article class="card"><div class="pic"><img src="glass-powder.svg" alt="Glass Powder"></div><div class="body"><h3>Glass Powder</h3><p>Fine processed glass powder for selected industrial applications requiring consistent particle size and quality.</p><div class="chips"><span class="chip">Fine Particle</span><span class="chip">Industrial</span><span class="chip">Bulk Supply</span></div></div></article>
+<article class="card"><div class="pic"><img src="egg-shell-powder.svg" alt="Egg Shell Powder"></div><div class="body"><h3>Egg Shell Powder</h3><p>Valorized egg shell material processed for calcium-focused applications and B2B supply.</p><div class="chips"><span class="chip">Natural</span><span class="chip">Processed</span><span class="chip">Bulk Supply</span></div></div></article>
+<article class="card"><div class="pic"><img src="egg-yolk-powder.svg" alt="Egg Yolk Powder"></div><div class="body"><h3>Egg Yolk Powder</h3><p>Powdered egg yolk ingredient for food and ingredient applications, subject to grade and specification.</p><div class="chips"><span class="chip">Ingredient</span><span class="chip">Consistent</span><span class="chip">B2B Supply</span></div></div></article>
+</div></div></section>
+
+<section id="exports"><div class="wrap"><div class="head"><div><div class="eyebrow">Global Trade</div><h2>Global trade. Reliable supply.</h2></div><p>Our export business is built around dependable communication, export-ready quality and long-term B2B relationships across international markets.</p></div>
+<div class="split">
+<div class="panel dark"><h3>Currently Supplying Vietnam</h3><p>YALIX currently supplies selected products to Vietnam and is building long-term relationships across international markets.</p><div class="route"><i>🌍</i><b>GLOBAL MARKETS</b><div class="route-line"></div><b>VIETNAM</b><i>🇻🇳</i></div><div class="points"><div class="point"><b>01</b><br>Export-quality supply</div><div class="point"><b>02</b><br>Bulk order support</div><div class="point"><b>03</b><br>Packaging discussion</div><div class="point"><b>04</b><br>Business enquiries</div></div></div>
+<div class="panel"><h3>Why partner with YALIX?</h3><p>We aim to make sourcing straightforward: understand the requirement, align the product specification, plan quantity and packaging, and coordinate supply professionally.</p><div class="checks"><div>Consistent quality</div><div>Reliable supply</div><div>Clear communication</div><div>Customer-focused service</div></div><a class="btn primary" href="mailto:sales@yalixvalor.com?subject=YALIX%20Export%20Enquiry">Start an Enquiry</a></div>
+</div></div></section>
+
+<section id="about" class="about"><div class="wrap about-grid"><div class="about-art"><div class="eyebrow" style="color:#9ed5a4">About YALIX</div><h3>From responsible valorization to global opportunity.</h3><p>We focus on turning selected resources into practical, quality-led products for modern industries and international customers.</p></div>
+<div class="about-copy"><div class="eyebrow">The YALIX Approach</div><h2>A corporate partner built for long-term supply.</h2><p>Our priority is not just moving products; it is building dependable business relationships through product clarity, consistent quality and responsive service.</p><div class="checks"><div>Premium product focus</div><div>Export-oriented mindset</div><div>Flexible B2B support</div><div>Reliable communication</div></div><a class="btn primary" href="mailto:sales@yalixvalor.com?subject=YALIX%20Partnership%20Enquiry">Partner with YALIX</a></div></div></section>
+
+<section class="cta" id="contact"><div class="wrap"><div class="cta-box"><div><h2>Have a product requirement?</h2><p>Share your application, quantity and destination. Our team will get back to you.</p></div><a class="btn" href="mailto:sales@yalixvalor.com?subject=YALIX%20Product%20Requirement">sales@yalixvalor.com</a></div></div></section>
+</main>
+
+<footer><div class="wrap"><div class="foot">
+<div><img src="yalix-logo.jpg" class="flogo" alt="YALIX"><p>Premium industrial products and global export solutions.</p></div>
+<div><h4>Company</h4><div class="fnav"><a href="#products">Products</a><a href="#about">About YALIX</a><a href="#exports">Export Business</a></div></div>
+<div><h4>Contact</h4><div class="fnav"><a href="mailto:sales@yalixvalor.com">sales@yalixvalor.com</a><a href="tel:+918124681991">+91 8124681991</a><a href="https://www.yalixvalor.com" target="_blank">www.yalixvalor.com</a></div></div>
+</div><div class="copy"><span>© 2026 YALIX Valorization Pvt. Ltd.</span><span>Bringing the Naturals.</span></div></div></footer>
+</body></html>
