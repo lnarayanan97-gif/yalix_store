@@ -1,0 +1,6 @@
+{
+  "name": "YALIX — Futuristic Industrial Valorization & Global Export",
+  "description": "Next-generation futuristic web design and interactive digital export portal for YALIX Valorization, featuring advanced material science telemetry, interactive 3D particle lattice visualizers, global supply radar, and automated B2B RFQ configurator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
